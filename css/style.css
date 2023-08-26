@@ -46,6 +46,5 @@ nav ul li a {
   font-weight: 700;
 }
 .hire-btn {
-  width: 150px;
-  height: 64px;
+  padding: 15px 35px;
 }
