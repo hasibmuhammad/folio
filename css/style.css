@@ -121,3 +121,34 @@ nav ul li a {
   width: 584px;
   height: 676px;
 }
+
+/* Main section Styles */
+
+/* About Start */
+main {
+  margin-top: 100px;
+}
+.about {
+  padding: 90px 157px;
+  text-align: center;
+  width: 45%;
+  background-color: var(--header-bg);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.about h3 {
+  font-size: 30px;
+}
+.info p,
+.about p {
+  color: var(--dark-3);
+}
+.info h3 {
+  font-size: 16px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
