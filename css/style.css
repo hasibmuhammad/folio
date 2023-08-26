@@ -1,0 +1,51 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #fd6e0a;
+  --white-color: #fff;
+}
+
+/* Navigation Styles */
+.logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.highlight {
+  color: var(--primary-color);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 51px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 700;
+}
+.hire-btn {
+  width: 150px;
+  height: 64px;
+}
