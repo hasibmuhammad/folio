@@ -100,7 +100,7 @@ nav ul li a {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .download-cv {
@@ -136,6 +136,7 @@ main {
   margin: 0 auto;
   border-radius: 10px;
 }
+.expertise h3,
 .about h3 {
   font-size: 30px;
 }
@@ -144,11 +145,64 @@ main {
   color: var(--dark-3);
 }
 .info h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 .info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
+}
+
+/* Expertise Section: Start */
+.expertise {
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about p,
+.expertise p {
+  color: var(--dark-3);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.skills {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.skill {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill h4 {
+  color: var(--dark-1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 33px;
+}
+.skill p {
+  color: var(--dark-3);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 0px 33px 0px 33px;
+}
+.skill img {
+  padding-top: 30px;
+  padding-left: 33px;
 }
