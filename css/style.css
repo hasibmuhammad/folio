@@ -10,7 +10,9 @@
   --dark-2: #474747;
   --dark-3: #757575;
 }
-
+.center {
+  text-align: center;
+}
 /* Navigation Styles */
 .logo {
   color: #181818;
@@ -274,4 +276,7 @@ hr {
   border-left: 0;
   border-right: 0;
   height: 2px;
+}
+.dl {
+  margin-top: 1rem;
 }
