@@ -206,3 +206,72 @@ main {
   padding-top: 30px;
   padding-left: 33px;
 }
+
+/* Resume styles */
+.resume {
+  margin-top: 3rem;
+}
+.resume h3 {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume h4 {
+  color: var(--dark-2);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.education h6,
+.experience h6 {
+  color: var(--dark-3);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.education h5,
+.experience h5 {
+  color: var(--dark-2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.education p,
+.experience p {
+  color: var(--dark-3);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+hr {
+  background-color: #d1d1d1;
+  color: #d1d1d1;
+  border-bottom: none;
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  height: 2px;
+}
